@@ -168,7 +168,7 @@ fill_audio(audio, kick, sr, events)
 fill_silence(audio, sr, 0.05, range(2, 5))
 
 
-np.clip(audio, -0.3, 0.3, out=audio)
+np.clip(audio, -0.3, 0.3, out=audio) # more power
 audio *= 0.97 / 0.3
 
 
