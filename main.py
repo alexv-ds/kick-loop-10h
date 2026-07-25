@@ -137,7 +137,7 @@ def fill_silence(
 
 sample = "kick1.mp3"
 output = "generated.mp3"
-duration_sec = 60
+duration_sec = 60 * 60 * 10
 
 print(f"Prepare - {sample}")
 
